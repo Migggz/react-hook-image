@@ -1,0 +1,53 @@
+{
+  "name": "react-useimage",
+  "version": "1.0.0",
+  "description": "Minimal React Hook to load images!",
+  "author": {
+    "name": "Maged Mohamed",
+    "email": "MagedMohammed16@GMail.Com",
+    "url": "https://github.com/Migggz/"
+  },
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "tsc --watch",
+    "build": "tsc",
+    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "lint": "tslint -p tsconfig.json",
+    "prepare": "npm run build",
+    "prepublishOnly": "npm run lint",
+    "preversion": "npm run lint",
+    "version": "npm run format && git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Migggz/react-useimage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Migggz/react-useimage/issues"
+  },
+  "homepage": "https://github.com/Migggz/react-useimage#readme",
+  "devDependencies": {
+    "@types/react": "^17.0.0",
+    "@types/react-dom": "^17.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "typescript": "^4.1.3"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "use-image",
+    "useImage",
+    "react",
+    "image",
+    "react-useimage"
+  ]
+}
