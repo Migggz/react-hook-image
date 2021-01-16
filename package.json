@@ -1,6 +1,6 @@
 {
   "name": "react-hook-image",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Minimal React Hook to load images!",
   "author": {
     "name": "Maged Mohamed",
@@ -9,7 +9,6 @@
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "type": "module",
   "scripts": {
     "dev": "tsc --watch",
     "build": "tsc",
