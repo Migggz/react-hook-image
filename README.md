@@ -35,9 +35,9 @@ Hook status: `loading`, `success`, `failed`
 
 
 | Arguments | Required?|
-| ------------------------- | -------------------------------------------- | ---------------------------------------------------- |
-| url |   Yes    |
-|    crossOrigin     | No |
+| ----- | ----- |
+| url | Yes |
+| crossOrigin | No |
 
 ## License
 

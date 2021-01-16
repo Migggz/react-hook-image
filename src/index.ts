@@ -10,13 +10,13 @@ export default function useImage(url: string, crossOrigin?: string) {
 
   useEffect(() => {
     if (!url) return;
-    let img = document.createElement('img');
+    const img = document.createElement('img');
     const onLoad = () => setImage({ src: img.src, status: 'success' });
     const onError = () => setImage({ src: undefined, status: 'failed' });
 
     img.addEventListener('load', onLoad);
     img.addEventListener('error', onError);
-    crossOrigin && (img.crossOrigin = crossOrigin);
+    if (crossOrigin) img.crossOrigin = crossOrigin;
     img.src = url;
 
     return () => {
