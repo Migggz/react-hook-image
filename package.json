@@ -1,5 +1,5 @@
 {
-  "name": "react-useimage",
+  "name": "react-hook-image",
   "version": "1.0.0",
   "description": "Minimal React Hook to load images!",
   "author": {
@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Migggz/react-useimage.git"
+    "url": "git+https://github.com/Migggz/react-hook-image.git"
   },
   "bugs": {
-    "url": "https://github.com/Migggz/react-useimage/issues"
+    "url": "https://github.com/Migggz/react-hook-image/issues"
   },
-  "homepage": "https://github.com/Migggz/react-useimage#readme",
+  "homepage": "https://github.com/Migggz/react-hook-image#readme",
   "devDependencies": {
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
@@ -51,6 +51,7 @@
     "useImage",
     "react",
     "image",
-    "react-useimage"
+    "react-hook-image",
+    "hook"
   ]
 }

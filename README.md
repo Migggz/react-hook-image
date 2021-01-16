@@ -11,19 +11,19 @@
 ###### Yarn
 
 ```cmd
-yarn add react-useimage
+yarn add react-hook-image
 ```
 
 ###### NPM
 
 ```cmd
-npm i react-useimage
+npm i react-hook-image
 ```
 
 ## Usage
 
 ```jsx
-import useImage from "react-useimage";
+import useImage from "react-hook-image";
 
 export default function ImageComponent({ imageUrl }) {
   const { src, status } = useImage(imageUrl, "Anonymous");
